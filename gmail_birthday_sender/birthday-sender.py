@@ -1,5 +1,6 @@
 import smtplib
 from email.mime.text import MIMEText
+from config import password
 
 
 def happy_birthday(sender_email, recipient_email, password, recipient_name, message):
@@ -19,7 +20,7 @@ if __name__ == '__main__':
 
     sender_email = "bigshaq22322@gmail.com"
     recipiant_email = "cmundreanu22@gmail.com"
-    password = "wbgf kfcy miai klcr"   # enter a secure app password created in your Google settings
+    password = password  # enter a secure app password created in your Google settings
     recipiant_name = "Christian"
     message = "Happy Birthday Christian! I hope you have an amazing day and get to eat a lot of cake!"
 
