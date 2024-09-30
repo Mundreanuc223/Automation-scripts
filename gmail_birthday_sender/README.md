@@ -9,7 +9,7 @@
    - Your newly created app password
    - The recipients name
    - Your birthday message
-   - 
+     
 ### 3. Schedule a task on your device
    - Use task scheduler for Windows
    - Use cron jobs for Mac or Linux
